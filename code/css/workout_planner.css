@@ -1,0 +1,56 @@
+/* General Style Matching Other Components */
+.budget-tracker, .converter-wrapper, #workout-planner {
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px; /* Adjust based on your design preference */
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Headings */
+.budget-tracker h2, .converter-wrapper h2, #workout-planner h2,
+.budget-tracker h3, .converter-wrapper h3, #workout-planner h3 {
+  color: #333; /* Adjust if you have a specific color theme */
+  margin-bottom: 15px;
+}
+
+/* Input fields and Select dropdown */
+.budget-tracker input, .budget-tracker select,
+.converter-wrapper input, .converter-wrapper select,
+#workout-planner input, #workout-planner select {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: calc(100% - 20px); /* Adjust for padding */
+  box-sizing: border-box; /* Include padding and border in the element's width */
+}
+
+/* Buttons */
+.budget-tracker button, .converter-wrapper button, #workout-planner button {
+  background-color: #0C4C8A; /* Adjust for your color theme */
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: calc(100% - 20px); /* Adjust for padding */
+}
+
+/* Specific to Workout Planner */
+#transactions-container, #exercises-list {
+  margin-top: 20px;
+  text-align: left; /* Or center, depending on your design preference */
+}
+
+.transaction, .exercise {
+  background-color: #f3f3f3; /* Light grey, adjust based on your theme */
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}

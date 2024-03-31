@@ -1,0 +1,57 @@
+.budget-tracker {
+  margin: 20px auto;
+  padding: 20px;
+  width: fit-content; /* Adjust to fit content while respecting max-width */
+  max-width: 800px; /* Adjusted width to match other components */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for consistency */
+  border-radius: 10px; /* Consistent border radius */
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1); /* Consistent shadow */
+  text-align: center; /* Center alignment for headings and content */
+}
+
+.budget-tracker input[type="text"],
+.budget-tracker input[type="number"],
+.budget-tracker select {
+  margin: 10px 0; /* Consistent margin */
+  padding: 10px; /* Consistent padding */
+  width: calc(100% - 20px); /* Adjust width to account for padding */
+  border-radius: 5px; /* Consistent border-radius */
+  border: 1px solid #ddd; /* Light border */
+  box-sizing: border-box; /* Include padding and border in element's width */
+}
+
+.budget-tracker button {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none; /* No border */
+  background-color: #0C4C8A; /* Consistent button color */
+  color: white; /* Text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  width: calc(100% - 20px); /* Full width with padding accounted for */
+  box-sizing: border-box;
+}
+
+.transaction {
+  background-color: #f3f3f3; /* Light background for transactions */
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px; /* Consistent border-radius */
+  border: 1px solid #ddd; /* Light border */
+}
+
+.income {
+  background-color: #e0ffe0; /* Light green background */
+}
+
+.expense {
+  background-color: #ffe0e0; /* Light red background */
+}
+
+#transactions-container {
+  margin-top: 20px;
+}
+
+.budget-tracker h2, .budget-tracker h3 {
+  margin-bottom: 15px; /* Consistent margin */
+}

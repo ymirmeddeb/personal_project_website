@@ -1,0 +1,35 @@
+/* Use this styling for both unit and time converters */
+.converter-wrapper {
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: fit-content;
+  max-width: 100%;
+  text-align: center;
+}
+
+.converter-wrapper h2 {
+  margin-bottom: 15px;
+}
+
+.converter-wrapper select,
+.converter-wrapper input,
+.converter-wrapper button {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+  box-sizing: border-box; /* Include padding and border in the element's width */
+  -webkit-appearance: none; /* For iOS and older versions of Safari */
+  appearance: none;
+}
+
+
+.converter-wrapper button {
+  background-color: #0C4C8A;
+  color: white;
+  cursor: pointer;
+}
