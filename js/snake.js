@@ -25,13 +25,18 @@ function drawSnake() {
   });
 }
 
+function drawScore() {
+  document.getElementById('score').innerText = score;
+}
+
 function advanceSnake() {
-  const head = {x: snake[0].x + dx, y: snake[0].y + dy};
+  const head = { x: snake[0].x + dx, y: snake[0].y + dy };
   snake.unshift(head);
 
   if (head.x === foodX && head.y === foodY) {
-    score += 10;
+    score += 10; // Adjust scoring logic as needed
     createFood();
+    drawScore(); // Update the score display whenever the score changes
   } else {
     snake.pop();
   }

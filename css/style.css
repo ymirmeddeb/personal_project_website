@@ -4,6 +4,14 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.score{
+  font-family: 'Press Start 2P', cursive; /* Apply the Google Font */
+  font-size: 24px; /* Adjust the size as needed */
+  color: black; /* Choose a color that stands out on your background */
+  text-align: center; /* Center the text, if appropriate for your layout */
+  margin: 10px; /* Add some margin around the score display */
+}
+
 header {
   background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
   color: #1b687f; /* Dark blue text color to match the darker gradient */
