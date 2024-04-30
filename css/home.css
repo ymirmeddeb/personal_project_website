@@ -1,0 +1,60 @@
+.content-wrapper {
+  margin: 20px auto;
+  padding: 20px;
+  width: fit-content;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.projects-container {
+  /* If you want a grid of projects */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between project cards */
+}
+
+.project {
+  width: calc(33.333% - 20px); /* Three items per row with gap accounted for */
+  margin: 10px;
+  padding: 10px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  text-align: left; /* Assuming you want text aligned to the left within the card */
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+  background-color: #0C4C8A;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #073761;
+}
+
+/* Responsive grid */
+@media (max-width: 6000px) {
+  .project {
+    width: 100%;
+  }
+}

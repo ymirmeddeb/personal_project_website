@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <title>Home</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
 <header>
   <nav class="navbar">
-    <div class="logo">Your Logo Here</div>
+    <div class="logo"><img src="pictures/IMG_5421.jpg" alt="Description of image" width="50" height="50"></div>
     <div class="search-container">
       <input type="search" id="searchInput" placeholder="Search pages..." aria-label="Search Pages">
       <button type="button" onclick="searchPages()">Go</button>
@@ -29,37 +30,34 @@
   </nav>
 </header>
 
+<main class="content-wrapper">
+  <section class="projects-tracker">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+      <!-- Repeat this block for each project -->
+      <div class="project">
+        <h3>Chatbot Joe</h3>
+        <p>As a pivotal part of my Bachelor's in Computer Engineering, I developed "Joe" — a sophisticated command-line task management application. Built with Java 11, Joe assists users in effortlessly managing their daily tasks, deadlines, and events through an intuitive text-based interface.</p>
 
-<p>Currency Converter: Useful for users who need to calculate exchange rates.
-
-  Todo List: Allow users to create and manage a list of tasks.
-
-  Weather App: Show current weather conditions or forecasts based on the user's location or a searched city.
-
-  Calendar: Include a calendar for users to view dates and possibly add events or reminders.
-
-  Educational Quizzes: Offer quizzes on various topics for learning and self-assessment.
-
-  Recipe Finder: A tool where users can input ingredients they have and get recipe suggestions.
-
-  Interactive Maps: Integrate with APIs to display maps for various purposes like finding local services or planning trips.
-
-  File Converter: Offer conversions between different file formats (e.g., PDF to DOC).
-
-  Meditation Timer: A simple timer with calming sounds to guide meditation sessions.
-
-  Social Media Feed: Integrate a social media feed if you have active channels you want to promote.
-
-  E-commerce Features: If you have products to sell, you could add a shop section with a shopping cart.
-
-  Games: Simple web-based games can be a fun addition to keep visitors engaged.
-
-  Customizable User Profiles: Allow users to sign up and customize their profiles.
-
-  Online Chat Room: If community building is part of your goal, consider implementing a chat feature.
-
-  Educational Tools: Such as a math equation solver, a periodic table, or a science experiment database.</p>
-
+        <img src="pictures/Joe_picture.png" alt="Project Image" class="project-image">
+        <a href="https://github.com/ymirmeddeb/ChatbotJoe" class="button">Learn More</a>
+      </div>
+      <div class="project">
+        <h3>LIDAR Navigator Bot</h3>
+        <p>As a pivotal part of my Bachelor's in Computer Engineering, I contributed to the LiDARNavigatorBot, also known as "Alex to the Rescue", a cutting-edge robotics project aimed at simulating search and rescue operations. This endeavor not only challenged our technical skills but also pushed the boundaries of practical application in robotics.</p>
+        <img src="pictures/Lidarbot_picture.jpg" alt="Project Image" class="project-image">
+        <a href="https://github.com/ymirmeddeb/LiDARNavigatorBot" class="button">Learn More</a>
+      </div>
+      <div class="project">
+        <h3>Maze Runner Bot</h3>
+        <p>As part of my Bachelor in Computer Engineering at the National University of Singapore, I contributed to the MazeRunnerBot project — a venture into robotics that combined sensor fusion, control systems, and programming to create an autonomous robot capable of navigating mazes.</p>
+        <img src="pictures/Mazerunnerbot_picture.jpg" alt="Project Image" class="project-image">
+        <a href="https://github.com/ymirmeddeb/MazeRunnerBot" class="button">Learn More</a>
+      </div>
+      <!-- End project block -->
+    </div>
+  </section>
+</main>
 <script src="js/app.js"></script>
 </body>
 </html>
